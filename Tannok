@@ -1,0 +1,79 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Oneof - Останній танок</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Animate Buttons on Hover</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <title>Бігуча строка</title>
+    <style>
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .marquee-container {
+            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            color: #fff;
+            padding: 10px;
+            animation: marquee 20s linear infinite;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="marquee-container">
+        <p>Oneof-Останній Танок хто не підписався той в болоті купався хах шутка цей сайт створено завдяки пляшці кока коли 0.5</p>
+    </div>
+    <header class="animated-background">
+        <h1 class="glow-text">O  N  E  O  F</h1>
+    </header>
+
+    <div class="animated-background" class="container">
+        <aside class="sidebar">
+            <div class="cover">
+                <img src="img/2Q==.jpg" alt="Обкладинка треку">
+            </div>
+            <div class="links">
+                <a class="shrink-button"href="https://open.spotify.com/" target="_blank">Spotify</a>
+                <a class="shrink-button"href="https://www.apple.com/itunes/" target="_blank">iTunes</a>
+                <a class="shrink-button"href="https://www.youtube.com/" target="_blank">YouTube</a>
+                <a class="shrink-button"href="https://www.tiktok.com/" target="_blank">TikTok </a>
+                <a class="shrink-button"href="https://www.instagram.com/oneof.wav/" target="_blank">instagram</a>
+            </div>
+        </aside>
+        
+        <main>
+            <section>
+                <h2 class="НАЗВА">ОСТАННІЙ ТАНОК</h2>
+                <div class="Opis">
+                <p>Oneof презентує свій новий трек "Останній танок".</p> 
+                <p>"Останній танок" - трек, який розповідає про закоханість, втрату і надію. 
+                    Його лірика передає емоційний шлях від розчарування до прагнення вільності, зберігаючи глибокий слід в серці слухача.</p>
+                    <p>Прикіньте я сам в шоці якщо чесно😂</p>
+                    <P>⬅всі посилання трішки правіше просто зроби клік)</P>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        &copy; 2023 Oneof Music. Усі права захищені.
+    </footer>
+    
+</body>
+
+</html>
